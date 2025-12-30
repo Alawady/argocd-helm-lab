@@ -1,0 +1,28 @@
+########################################
+# Secrets – NEVER commit plaintext
+########################################
+
+# Plain Kubernetes secrets (dry-run output)
+secret.yaml
+*.secret.yaml
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+########################################
+# kubeseal / sealed-secrets temp files
+########################################
+
+sealed-secrets-cert.pem
+
+########################################
+# OS / editor noise
+########################################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
