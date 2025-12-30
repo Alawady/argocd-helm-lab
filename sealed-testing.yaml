@@ -1,0 +1,14 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: myapp-secret
+  namespace: demo-testing
+spec:
+  encryptedData:
+    DB_PASSWORD: AgDAoIuCxmq64GFlEZOPwhRFxXd/OQGIDIRmJx6F7y8TyWLARTnLSYLSPwaAj4oxMo8JC5C9+e9pjZh0ME7JZET4PnONZ8xN+AP51uUeDw397bxlHnaEKKdq/Rpj1M54SeiIPMQmiB1w45aPnGlioiGIh+fh/hqqELN7LLbimTaBfKJpWz4yG3qSutVmevpzRVFd3NMFIfoUYQQRDVo6/ABo4WJ89cbTY9MWyi/c/+7dWTqDYTlIRBJuQKL528M8k9YlEex5uiYkbWfwR8nqUUvVi5KOqB2EXKOYMDPEVvgq79Yz6DK4LALH67KAMbsC+TiSSbcyADLjKGu/wJ494pUnHkmRuOgqyNF3P9R3Lbebqz17r5ykkPU7Pbi0zf7hGvJHLTPCDoH6Ib5y8pzDVrYaShcvYepVM+iU9D6j4TUGyZBudcY4GNiCuMi4vhqdpHeQ6Anludn1/Z8Ykb+XroJGO8/zTc4Xztzrbdgxni9zHmXhzd2q7s169vw5q+fBYDxEHd6FBzm+uCEAKx6rJIYB3mAIquYX/GcNI95vYg2Yi9RACImoo6J6ssRKZuy41C9nA508bJbTegte4H8M1eGF/IiXJ4VqzX2D+YUhwyrY9xFbRdjBGiVq3ssd2+1F/7NMpwHkTWxsRxcy/m9If7nx0Hy++Q31Oe1580SJnr8dsfhtQEShcvzF4D0yp2l+O30Rg4AuhsyOvFnpnw==
+  template:
+    metadata:
+      name: myapp-secret
+      namespace: demo-testing
+    type: Opaque
