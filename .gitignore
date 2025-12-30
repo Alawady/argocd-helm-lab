@@ -25,4 +25,5 @@ sealed-secrets-cert.pem
 Thumbs.db
 .vscode/
 .idea/
-
+kubeseal
+kubeseal-*-linux-amd64.tar.gz
