@@ -8,3 +8,5 @@ service:
   type: ClusterIP
 
 resources: {}
+
+appSecretName: myapp-secret
